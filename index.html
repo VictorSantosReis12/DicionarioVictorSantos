@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.js">
+</head>
+<body>
+    <div id="titulo1">
+        <p class="titulo">Victor Santos dos Reis</p>
+    </div>
+    <div id="titulo2">
+        <p class="titulo">Palavras</p>
+    </div>
+    <section>
+        <div id="coluna1">
+            <button id="botao1">Bridge</button>
+            <button id="botao2">Knowledgeable</button>
+            <button id="botao3">Greece</button>
+            <button id="botao4">Own</button>
+            <button id="botao5">Loose</button>
+        </div>
+        <div id="coluna2">
+            <button id="botao6">Raisin</button>
+            <button id="botao7">Weird</button>
+            <button id="botao8">Actually</button>
+            <button id="botao9">Push</button>
+            <button id="botao10">Pretend</button>
+        </div>
+    </section>
+    
+    <section id="secao-dialogo">
+        <div>
+            <div class="divNomeFrase">
+                <p id="nomeFrase">Contexto - O amigo de Sócrates: Solárico</p>
+            </div>
+            <div id="dicio">
+                <div id="barra"></div>
+                <button id="bolinha"><img src="assests/seta.png" alt="seta"></button>
+            </div>
+        </div>    
+
+        <div id="dialogo">
+            <h5 class="tituloConto">O amigo de Sócrates: Solárico</h5>
+            <p class="paragrafoConto"></p>
+        </div>
+    </section>
+
+    <section id="secao-dialogo">
+        <div>
+            <div class="divNomeFrase">
+                <p id="nomeFrase">Contexto - Sentence</p>
+            </div>
+            <div id="dicio">
+                <div id="barra"></div>
+                <button id="bolinhaSentence"><img src="assests/seta.png" alt="seta"></button>
+            </div>
+        </div>    
+
+        <div id="dialogoSentence">
+            <div style="display: flex; align-items: center; gap: 1rem; padding: 0px 3rem;">
+                <h5 id="tituloSentence">Palavra</h5>
+                <img class="audio" id="audioFraseIngles" src="assests/audio.png" alt="som">
+            </div>
+            <p id="Sentence"></p>
+        </div>
+    </section>
+
+    <div id="modal">
+        <div id="ingles">
+            <div class="espacoTitulo">
+                <h3 class="modalTituloIngles">Titulo</h3>
+                <img class="audio" id="audioPalavraIngles" src="assests/audio.png" alt="som">
+            </div>
+            <div class="barraModal"></div>
+            <div class="divIdioma">
+                <p class="classeGramaticalIngles">classe</p>
+                <p class="idioma">Inglês</p>
+            </div>
+            <p class="modalTextoIngles">Texto</p>
+        </div>
+        <div id="portugues">
+            <div class="espacoTitulo">
+                <h3 class="modalTituloPortugues">Titulo</h3>
+                <img class="audio" id="audioPalavraPortugues" src="assests/audio.png" alt="som">
+            </div>
+            <div class="barraModal"></div>
+            <div class="divIdioma">
+                <p class="classeGramaticalPortugues">classe</p>
+                <p class="idioma">Português</p>
+            </div>
+            <p class="modalTextoPortugues">Texto</p>
+        </div>
+    </div>
+    <div class="blur"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>

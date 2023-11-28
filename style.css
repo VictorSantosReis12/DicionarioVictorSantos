@@ -1,0 +1,221 @@
+section{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+#titulo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+#titulo2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.titulo{
+    font-family: 'Inter';
+    font-size: 60px;
+}
+
+button{
+    background-color: #D9D9D9;
+    font-size: 48px;
+    border: 0;
+    width: 366px;
+    height: 89px;
+    top: 774px;
+    left: 192px;
+    border-radius: 20px;
+    font-family: 'Inter';
+}
+
+#coluna1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#coluna2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#nomeFrase{
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+.divNomeFrase{
+    display: flex;
+    justify-content: center;
+}
+
+#barra{
+    width: 1123px;
+    height: 14px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+}
+
+#secao-dialogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+#bolinha{
+    width: 60px;
+    height: 69px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+}
+
+#bolinhaSentence{
+    width: 60px;
+    height: 69px;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+}
+
+#dicio{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+#dialogo{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 1123px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    padding-bottom: 10px;
+}
+
+#dialogoSentence{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 1123px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    padding-bottom: 10px;
+}
+
+.tituloConto{
+    font-size: 30px;
+}
+
+.paragrafoConto{
+    font-size: 25px;
+    width: 1000px;
+    text-align: justify;
+    text-indent: 60px;
+}
+
+#tituloSentence{
+    font-size: 30px;
+}
+
+#Sentence{
+    font-size: 25px;
+    /* width: 1000px; */
+    text-align: justify;
+    /* text-indent: 60px; */
+}
+
+.blur{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(98,12,112);
+    background: linear-gradient(180deg, rgba(98,12,112,1) 0%, rgba(0,0,0,0) 100%);
+    visibility: hidden;
+}
+
+#modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 659px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
+
+    visibility: hidden;
+
+}
+
+.modalTituloIngles, .modalTituloPortugues{
+    font-size: 38px;
+    font-family: Inter;
+}
+
+.modalTextoIngles, .modalTextoPortugues{
+    font-size: 22px;
+    font-family: Inter;
+    margin-top: 0;
+}
+
+.barraModal{
+    width: 666px;
+    border: 2px solid black;
+    background-color: #000000;
+}
+
+.audio{
+    width: 55px;
+    height: 35.92px;
+}
+
+.espacoTitulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.idioma{
+    font-family: Inter;
+    font-size: 15px;
+}
+
+.classeGramaticalIngles{
+    font-family: Inter;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.classeGramaticalPortugues{
+    font-family: Inter;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.divIdioma{
+    display: flex;
+    justify-content: space-between;
+}
